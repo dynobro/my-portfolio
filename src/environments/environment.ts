@@ -3,7 +3,9 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebaseEndpoint: 'https://todo-app-7b272.firebaseio.com',
+  pageInfoPath: 'assets/data/page-data.json'
 };
 
 /*
